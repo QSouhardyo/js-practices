@@ -1,4 +1,4 @@
-var names = 'hi Mr Developer'
+var names = 'Hi Mr Developer'
 
 let empty = ""
 for (name of names) {
@@ -7,3 +7,7 @@ for (name of names) {
 }
 
 console.log(empty);
+
+const reverse = names.split('').reverse().join('')
+
+console.log(reverse);
