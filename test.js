@@ -93,10 +93,10 @@ function resultReport(marks) {
     let pass = 0;
     let fail = 0;
 
-    for (let i = 0; i < marks.length; i++) {
-        total += marks[i];
+    for (let mark of marks) {
+        total = total + mark;
 
-        if (marks[i] >= 40) {
+        if (mark >= 40) {
             pass++;
         } else {
             fail++;
