@@ -7,3 +7,5 @@ const ages = [1, 5, 100, 15, 2, 28]
 ages.sort()
 
 console.log(ages);
+
+
